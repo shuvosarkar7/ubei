@@ -1,0 +1,387 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Poppins', sans-serif;
+}
+img{
+	width: 100%;
+	height: 100%;
+}
+dl, ol, ul {
+    margin-top: 0;
+    margin-bottom: 0; 
+}
+ol, ul {
+     padding-left: 0px; 
+}
+.nav_logo{
+	float: left;
+}
+
+
+.nav_menus ul li ul li{
+	position: relative;
+	display: block;
+}
+.nav_menus ul li ul li a{
+	padding: 10px;
+}
+.nav_menus ul li ul{
+	display: none;
+}
+
+.nav_menus ul li a{
+	text-decoration: none;
+}
+section.header_item {
+    color: #000;
+    position: fixed;
+    width: 100%;
+    color: #fff;
+    transition: 0.6s;
+}
+section.header_item a{
+	color: #fff;
+}
+nav{
+	overflow: hidden;
+}
+section.sticky {
+    background: #fff;
+    color: #000;
+    transition: all 0.6s;
+    box-shadow: 0 2px 3px rgb(0 0 0 / 10%);
+    z-index: 1;
+}
+section.sticky a{
+	color: #000;
+}
+section.sticky ul{
+	color: #000;
+}
+section.sticky ul:hover ul{
+	transition: all 0.6s;
+	top: 41px;
+	padding: 10px;
+	border-radius: 5px;
+	color: #000;
+	background: #fff;
+}
+
+.slider{
+	background-repeat: no-repeat;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.slider .slider_bg{
+	height: 100vh;
+	background: rgba(0, 0, 0, 0.7);
+	color: #fff;
+	overflow: hidden;
+}
+.slider .slider_bg .accademy_title {
+    margin-top: 35vh;
+    font-size: 40px;
+    font-weight: bold;
+}
+.slider .slider_bg .accademy_short_desc{
+	margin-top: 15px;
+	font-size: 20px;
+}
+.slider .slider_bg .accademy_button {
+    margin-top: 50px;
+    font-size: 25px;
+}
+.slider .slider_bg .accademy_button button {
+    border: none;
+    border-radius: 5px;
+    padding: 5px 24px;
+    font-weight: bold;
+    background: #2cefdc;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.slider_post {
+    height: 70px;
+    background: #000;
+}
+.postbox {
+    box-shadow: 0 3px 6px rgb(0 0 0 / 16%), 0 1px 2px rgb(0 0 0 / 23%);
+    margin-top: 8px;
+    border-radius: 5px;
+}
+.post_body {
+    padding: 10px;
+}
+.post_title {
+    font-size: 20px;
+    font-weight: bold;
+}
+.post_content {
+    font-size: 15px;
+}
+button.btn-readmore {
+    border: none;
+    padding: 3px 12px;
+    margin-top: 10px;
+    border-radius: 3px;
+    background: #2cefdc;
+    color: #fff;
+}
+.postheading {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    color: #545454;
+}
+
+.postPage {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.footer_content {
+    padding: 30px;
+    background: #000;
+    color: #fff;
+    margin-top: 15px;
+}
+.footer_usefull_content ul li {
+    list-style: none;
+}
+.footer_usefull_content ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+.footer_usefull_title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #2cefdc;
+}
+.footer_address_title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #2cefdc;
+}
+.copyright_area {
+    padding: 10px;
+    text-align: center;
+    background: #2cefdc;
+    color: #fff;
+}
+.page_name {
+    height: 20vh;
+    background: linear-gradient(
+227deg, #52dba4, #2cefdc);
+    overflow: hidden;
+}
+.PageName {
+    margin-top: 75px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+}
+.contactBox {
+    padding: 20px;
+    box-shadow: 0 3px 6px rgb(0 0 0 / 16%), 0 1px 2px rgb(0 0 0 / 23%);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background: #fff;
+}
+.contactBox .contactTitle {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+/*all input css*/
+.fullName input[type=text]{
+	width: 80%;
+	padding: 5px;
+	border-radius: 3px;
+	border: 1px solid #2cefdc;
+}
+.password input[type=password]{
+	width: 80%;
+	padding: 5px;
+	border-radius: 3px;
+	border: 1px solid #2cefdc;
+}
+.email input[type=email]{
+	width: 80%;
+	padding: 5px;
+	border-radius: 3px;
+	border: 1px solid #2cefdc;
+}
+.nid input[type=number]{
+	width: 80%;
+	padding: 5px;
+	border-radius: 3px;
+	border: 1px solid #2cefdc;
+}
+.phone input[type=text]{
+	width: 80%;
+	padding: 5px;
+	border-radius: 3px;
+	border: 1px solid #2cefdc;
+}
+.date input[type=date]{
+	width: 80%;
+	padding: 5px;
+	border-radius: 3px;
+	border: 1px solid #2cefdc;
+}
+.trade select{
+	width: 80%;
+	padding: 5px;
+	border-radius: 3px;
+	border: 1px solid #2cefdc;
+}
+.content textarea{
+	width: 80%;
+	padding: 5px;
+	border-radius: 3px;
+	border: 1px solid #2cefdc;
+}
+.submit input[type=submit]{
+	width: 80%;
+	padding: 5px;
+	border-radius: 3px;
+	background: #2cefdc;
+	color: #fff;
+	border: 0px;
+	border-radius: 3px;
+	box-shadow: 0 3px 6px rgb(0 0 0 / 16%), 0 1px 2px rgb(0 0 0 / 23%);
+}
+.contactBox label {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.document {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.document input[type=file]{
+	width: 80%;
+	padding: 5px;
+	border-radius: 3px;
+	border: 1px solid #2cefdc;
+}
+.postBox{
+	box-shadow: 0 3px 6px rgb(0 0 0 / 16%), 0 1px 2px rgb(0 0 0 / 23%);
+	margin-top: 15px;
+	margin-bottom: 15px;
+	border-radius: 5px;
+	background: #fff;
+}
+.postBox .postContent{
+	padding: 15px;
+	font-size: 15px;
+}
+.catBox{
+	box-shadow: 0 3px 6px rgb(0 0 0 / 16%), 0 1px 2px rgb(0 0 0 / 23%);
+	margin-top: 15px;
+	margin-bottom: 15px;
+	border-radius: 5px;
+	border-top: 3px solid #2cefdc;
+	background: #fff;
+}
+.catBox ul li{
+	list-style: none;
+}
+.catBox .catTitle{
+	padding: 5px;
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+	border-bottom: 1px solid #2cefdc;
+}
+.catBox .CatList{
+	padding: 5px;
+}
+.catBox ul li{
+	display: inline-block;
+    overflow: hidden;
+}
+.catBox ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 20px;
+    background: #2feed8;
+    margin: 5px 5px;
+}
+.postListside {
+    margin-top: 5px;
+    border-bottom: 1px solid #ddd;
+    padding: 3px;
+}
+.footer_about_logo {
+    font-size: 20px;
+    font-weight: bold;
+    color: #2cefdc;
+}
+.footer_about {
+    margin-top: 5px;
+}
+.departmentTitle{
+	font-size: 20px;
+	font-weight: bold;
+}
+.nav_logo {
+    max-width: 110px;
+}
+.toggle_button{
+	margin-right: 25px;
+}
+::selection{
+	background: #2cefdc;
+	color: #fff;
+}
+.image_bg{
+	background-repeat: no-repeat;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.department_image {
+    width: 165px;
+    height: 165px;
+    text-align: center;
+    margin: auto;
+    border-radius: 100%;
+    padding: 5px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.postbox {
+    overflow: hidden;
+    background: #fff;
+}
+.dep_title {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+.btn-dep{
+	border: none;
+    padding: 3px 12px;
+    margin-top: 10px;
+    border-radius: 3px;
+    background: #2cefdc;;
+    color: #fff;
+}
+.visit_button {
+    text-align: center;
+}
+.catBox a {
+    text-decoration: none;
+    color: #000;
+}

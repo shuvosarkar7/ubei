@@ -1,0 +1,142 @@
+@media only screen and (min-width: 993px) {
+  .nav_menus{
+  	display: block;
+  }
+  .toggle_button{
+  	display: none;
+  }
+  .nav_menus{
+		float: right;
+		padding: 5px 0px;
+	}
+	.nav_menus ul li:hover ul{
+		transition: all 0.6s;
+		padding: 10px;
+		background: #000;
+		display: block;
+		border-radius: 5px;
+	}
+	.nav_menus ul li ul{
+		position: absolute;
+		top: 51px;
+		overflow: hidden;
+		box-shadow: 0 2px 3px rgb(0 0 0 / 10%);
+		width: 150px;
+	}
+	.nav_menus ul li{
+		transition: all 1s;
+		display: inline-block;
+	}
+	.nav_menus ul li a{
+		margin: 5px 10px;
+	}
+
+
+	.nav_menus ul li a:hover{
+		color: #fff;
+	}
+	section.header_item {
+		padding: 25px 0px;
+    color: #000;
+    position: fixed;
+    width: 100%;
+    color: #fff;
+    transition: 0.6s;
+	}
+	section.sticky{
+		padding: 15px 0px;
+	}
+	section.sticky ul:hover ul{
+		box-shadow: 0 2px 3px rgb(0 0 0 / 10%);
+	}
+	section.sticky ul li a:hover{
+		color: #000;
+	}
+}
+@media only screen and (max-width: 992px) {
+  .nav_menus{
+  	display: none;
+  }
+  .toggle_button{
+  	display: block;
+  	float: right;
+  	font-size: 20px;
+  }
+  .show_Nav{
+  	display: block;
+  }
+  .nav_menus ul li{
+  	display: block;
+  }
+  .nav_menus ul li a{
+    display: block;
+    width: 100%;
+    padding: 10px;
+	}
+
+	.bg_nav{
+		background: #fff;
+		color: #000;
+	}
+	.bg_nav ul li a{
+		color: #000;
+	}
+	.bg_nav ul li{
+		color: #000;
+	}
+	.nav_menus ul li a:hover {
+    background: #2cefdc;
+    color: #fff;
+	}
+	.nav_menus ul li:hover {
+    background: #2cefdc;
+    color: #fff;
+	}
+	.nav_menus ul li:hover a{
+    color: #fff;
+	}
+	.bg_nav .nav_menus ul li:hover ul {
+    color: #fff;
+    transition: all 0.6s;
+    background: #2cefdc;
+    display: block;
+    padding: 4px;
+    margin-left: 0px;
+	}
+	.nav_logo {
+    margin-left: 10px;
+	}
+	.nav_menus ul li ul{
+		overflow: hidden;
+		margin-left: 10px;
+		width: 100%;
+	}
+	.bg_nav{
+		z-index: 1;
+		color: #000;
+		box-shadow: 0 2px 3px rgb(0 0 0 / 10%);
+	}
+	.bg_nav .nav_logo{
+		color: #000;
+		margin-left: 10px;
+	}
+	.bg_nav .toggle_button{
+		color: #000;
+	}
+	.container-lg {
+	    width: 100%;
+	    margin: 0px;
+	    padding: 0px;
+	}
+	.nav_mobo {
+    padding: 25px 0;
+    overflow: hidden;
+    transition: 0.6s;
+	}
+	.sticky .nav_mobo{
+		padding: 15px 0;
+    overflow: hidden;
+    transition: 0.6s;
+	}
+	
+}
